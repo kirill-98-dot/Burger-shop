@@ -827,4 +827,22 @@ label {
 
 /* display: flex;
    flex-decoration: column;
+
    gap: 20px; */
+
+#form {
+    display: none;
+    text-align: center;
+}
+#form input {
+    width: 90%;
+    outline: none;
+    margin: 10px 5%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 2px solid silver;
+    border-radius: 5px
+}
+#form input:focus {
+    border-color: #dp5d5d;
+}
