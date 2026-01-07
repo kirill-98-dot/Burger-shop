@@ -838,6 +838,9 @@ input {
 .input-form {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #from {
     display: none;
@@ -854,6 +857,9 @@ input {
 }
 .input_form:focus {
     border-color: #dp5d5d;
+}
+#order {
+    width: 20%;
 }
 
 
