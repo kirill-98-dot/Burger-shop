@@ -837,7 +837,7 @@ input {
 
 .input-form {
     display: flex;
-    flex-decoration: column;
+    flex-direction: column;
 }
 #from {
     display: none;
@@ -855,6 +855,7 @@ input {
 .input_form:focus {
     border-color: #dp5d5d;
 }
+
 
 
 
