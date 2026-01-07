@@ -219,6 +219,22 @@
 
     order.addEventListener("click", () => {
       document.getElementById("from").style.display = "none";
+      order.addEventListener("click", () => {
+      let name = document.getElementById("user_name").value;
+      let email = document.getElementById("user_email").value
+      let phone = document.getElementById("user_phone").value
+      if(name.length < 5) {
+          document.getElementById("error").innerText = "Имя должно быть больше 5 букв";
+          return;
+      }
+      if(email.length < 5) {
+          document.getElementById("error").innerText = "Email должно быть больше 5 букв";
+          return;
+      }
+      if(phone.length < 5) {
+          document.getElementById("error").innerText = "Телефон должно быть больше 5 букв";
+          return;
+      }
       tg.close();
     });
   </script>
@@ -227,6 +243,7 @@
 
   
 </html>
+
 
 
 
