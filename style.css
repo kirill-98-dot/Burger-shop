@@ -835,6 +835,10 @@ input {
     padding: 0;
 }
 
+.input-form {
+    display: flex;
+    flex-decoration: column;
+}
 #from {
     display: none;
     text-align: center;
@@ -851,6 +855,7 @@ input {
 .input_form:focus {
     border-color: #dp5d5d;
 }
+
 
 
 
