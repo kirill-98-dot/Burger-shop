@@ -835,7 +835,7 @@ label {
     text-align: center;
 }
 #from input {
-    width: 90%;
+    width: 80%;
     outline: none;
     margin: 10px 5%;
     padding: 10px 15px;
@@ -846,4 +846,5 @@ label {
 #from input:focus {
     border-color: #dp5d5d;
 }
+
 
