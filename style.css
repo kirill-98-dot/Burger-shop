@@ -830,11 +830,11 @@ label {
 
    gap: 20px; */
 
-#form {
+#from {
     display: none;
     text-align: center;
 }
-#form input {
+#from input {
     width: 90%;
     outline: none;
     margin: 10px 5%;
@@ -843,6 +843,7 @@ label {
     border: 2px solid silver;
     border-radius: 5px
 }
-#form input:focus {
+#from input:focus {
     border-color: #dp5d5d;
 }
+
