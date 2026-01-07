@@ -30,7 +30,7 @@
       <a href="#" class="btn">ORDER NOW</a>
     </div>
   </header>
-  <main class="main">
+  <main class="main" id="main">
     <section class="welcome">
       <div class="container">
         <div class="welcome_text">
@@ -206,8 +206,6 @@
     let tg = window.Telegram.WebApp;
     let buy = document.getElementById("btn");
     let order = document.getElementById("order");
-    console.log(buy);
-    console.log(order);
 
     buy.addEventListener("click", () => {
       document.getElementById("main").style.display = "none";
@@ -224,6 +222,7 @@
 
   
 </html>
+
 
 
 
