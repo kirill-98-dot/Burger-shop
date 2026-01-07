@@ -839,7 +839,7 @@ input {
     display: none;
     text-align: center;
 }
-#from input {
+.input_form {
     width: 80%;
     outline: none;
     margin: 10px 5%;
@@ -848,9 +848,10 @@ input {
     border: 2px solid silver;
     border-radius: 5px
 }
-#from input:focus {
+.input_form:focus {
     border-color: #dp5d5d;
 }
+
 
 
 
